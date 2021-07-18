@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+
+.rf-card {
+  margin: 20px;
+  width: calc(100%-40px);
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #007b73;
+}
+
+.rf-card img {
+  width: 35%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.rf-card .rf-text-container {
+  padding: 20px;
+}
+
+.rf-card .rf-text-container .rf-label {
+  color: #007b73;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.rf-card .rf-text-container .rf-link {
+  display: flex;
+  width: 100%;
+}
+
+.rf-card .rf-text-container .rf-link div.link {
+  padding: 10px;
+  border: 2px solid #007b73;
+  border-radius: 5px;
+  width: 70%;
+  color: #007b73;
+  background-color: #0002;
+}
+
+.rf-card .rf-text-container .rf-link button {
+  width: 30%;
+  border: none;
+  background-color: #007b73;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.heading {
+  height: 30px;
+  width: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+
+section.heading .cross-lines {
+  height: 15px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: repeating-linear-gradient(
+    45deg,
+    white 0,
+    white 1px,
+    #007b73 2px,
+    #007b73 3px
+  );
+}
+section.heading .heading-text-container {
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  bottom: 0;
+  padding: 0 20px 0 30px;
+  background-color: #d1d1d1;
+  transform: skewX(30deg);
+  color: #007b73;
+  text-transform: uppercase;
+}
+
+section.heading .heading-text-container h2 {
+  transform: skewX(-30deg);
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rf-card {
+    flex-direction: column;
+  }
+  .rf-card img {
+    width: 100%;
+  }
+}
+/* 
+div[data-sp-feature-tag="HooksDemoWebPart web part (Carousel)"],
+div[data-sp-feature-tag="Mockup9WebPart web part (Mockup 9 Quick Links)"],
+div[data-sp-feature-tag="thoughtoftheday web part (Thought of the day)"],
+div[data-sp-feature-tag="EmergencyContactwebpart web part (Emergency Contact)"],
+div[data-sp-feature-tag="WeatherWebPart web part (Weather)"],
+div[data-sp-feature-tag="LatestBlogsWebPart web part (Latest Blogs)"],
+div[data-sp-feature-tag="HelpdeskWebPart web part (Help Desk)"],
+div[data-sp-feature-tag="Mockup9ReferFriendsWebPart web part (Mockup9 Refer Friends)"],
+div[data-sp-feature-tag="DonateWebPart web part (Donate)"],
+div[data-sp-feature-tag="featuredVideoWebPart web part (Hooks Demo)"],
+div[data-sp-feature-tag="AnnouncementsWebPart web part (Announcements)"],
+div[data-sp-feature-tag="galleryWebPart web part (Gallery)"] {
+  padding: 0 !important;
+} */

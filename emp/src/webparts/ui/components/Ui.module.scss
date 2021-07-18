@@ -1,0 +1,184 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.ui {
+  // .tablee{
+  //   max-width: auto;
+  // }
+  // .tablecell{
+  //   max-width: 250px;
+  // }
+  .ribbon{
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, rgb(0, 2, 17), rgb(141, 165, 231));
+    border-left: 3px solid rgb(159, 219, 167);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    .txt{
+
+      font-size: 20px;
+    
+      color: 'white';
+    }
+  }
+  .btnGroup{
+   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    // background-color: rgb(228, 222, 236);
+    flex-wrap: wrap;
+  }
+    .button{
+     border-top-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     width:30px;
+     text-align: center;
+     padding: 3px;
+      color: white;
+      background-color: #f12d4e;
+      cursor: pointer;
+      border: 1px solid rgb(1, 1, 19);
+      margin-left: 3px;
+      margin-top: 4px;
+
+
+    
+  }
+.button:hover{
+  background-color: #4f0819;
+  color: white;
+  border: 1px solid white;
+        }
+ 
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(111, 159, 231, 0.637);
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+    position: relative;
+    :before {
+      content : "";
+      position: absolute;
+      left    : 25%;
+      bottom  : 0;
+      height  : 0;
+      width   : 50%;
+      border-bottom:1px solid rgb(24, 2, 24);
+    }
+    :after {
+      content : "";
+      position: absolute;
+      right    : 0;
+      bottom  : 25%;
+      height  : 50%;
+      width   : 0;
+      border-right:1px solid rgb(24, 2, 24);
+    }
+    .profile{
+      max-width: 300px;
+      height: 100px;
+      line-height: 0%;
+    }
+    .title{
+      color: rgb(37, 3, 3);
+      font-size: 18px;
+    }
+    .company{
+      // padding-top: 0ch;
+      color :#0075c7;
+      font-size: 16px;
+      font-weight: 500;
+
+    }
+ .name{
+   font-size: 17px;
+   color: darkblue;
+   font-weight: 600;
+ }
+    .phone{
+      color: white;
+    }
+    .phone:hover{
+      color: white;
+      font-size: 17px;
+    }
+    .mailId{
+      color: white;
+    }
+    .mailId:hover{
+      font-size: 17px;
+      color: rgb(11, 11, 65);
+    }
+    
+    .detailsiconPhone{
+      width:150px;
+      height:25px;
+      padding-left: 10px;
+      padding-right: 10px;
+      align-items: left;
+    }
+   
+    .detailsicon{
+      width:20px;
+      height:25px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .detailsicon:hover {
+      // animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+  
+  }
+  .card:hover{
+    transform: scale(1.02);
+    background-color: rgba(224, 211, 211, 0.295);
+    :after {
+      content : "";
+      position: absolute;
+      left    : 0;
+      bottom  : 0;
+      top:25%;
+      height  : 50%;
+      width   : 0;
+      border-left: 0px solid rgb(24, 2, 24);
+    }
+    :before {
+      content : "";
+      position: absolute;
+      top   : 0;
+      // left:0;
+      right  : 25%;
+      height  : 0;
+      width   : 50%;
+      border-top: 0px solid rgb(24, 2, 24);
+    }
+
+  }
+ 
+
+  .trail{
+
+    .tableBody{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      margin-top: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
+      //background-color: lightcyan;
+    }
+  }
+  
+}

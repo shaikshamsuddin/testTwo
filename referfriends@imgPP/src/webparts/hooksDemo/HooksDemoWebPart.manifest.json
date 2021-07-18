@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "40f3db3a-017c-4511-bbc2-f3f58fa07fab",
+  "alias": "Mockup9ReferFriendsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "a6643c22-2638-44b2-888c-ee28414ccca0",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Mockup9 Refer Friends"
+      },
+      "description": {
+        "default": "Refer Friends web part"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "headerText": "REFER FRIENDS & FAMILY",
+        "numberOfLines": 2
+      }
+    }
+  ]
+}

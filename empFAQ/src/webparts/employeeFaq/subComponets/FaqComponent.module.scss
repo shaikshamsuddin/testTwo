@@ -1,0 +1,61 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.faqComponent {
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius:5px;
+
+  .minusIconBlock {
+    border-left: 3px solid #ebd830;
+    padding: 18px;
+    background: white;
+    border-radius:5px;
+
+    .accordionBlock {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      .accordionTextStyle {
+        font-size: 17px;
+        font-weight: 700;
+      }
+      .minusIconStyle {
+        color: black;
+        font-size: 28px;
+        font-weight: 800;
+      }
+    }
+  }
+  .plusIconBlock {
+    border-left: 3px solid transparent;
+    background-color: white;
+    padding: 18px;
+    // border-radius: 5px;
+    .accordionBlock {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      .accordionTextStyle {
+        font-size: 17px;
+        font-weight: 600;
+      }
+      .plusIconStyle {
+        color: black;
+        font-size: 28px;
+        font-weight: 800;
+      }
+    }
+  }
+  .contentListStyled {
+    font-size: 15px;
+  }
+}

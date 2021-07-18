@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "employee-faq-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeFaq/EmployeeFaqWebPart.js",
+          "manifest": "./src/webparts/employeeFaq/EmployeeFaqWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmployeeFaqWebPartStrings": "lib/webparts/employeeFaq/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

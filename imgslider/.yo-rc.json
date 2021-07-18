@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.12.0",
+    "libraryName": "content-and-image-slider",
+    "libraryId": "e95f3d63-7230-4960-b31f-eaadbbca95ae",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,86 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.testing {
+  .container {
+   width: 100%;
+   
+  }
+
+  .row {
+ 
+
+.accordionBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(4, 0, 255);
+  padding: 10px;
+  .accordionName{
+    font-size: 15px;
+    color: white;
+  }
+  .closeIconBlock{
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .openIconBlock{
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}
+  .accordionContent{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+
+   .imageBlock{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    object-fit: cover;
+    
+   }
+   .rightSideContent{
+     display: flex;
+     flex-direction: column;
+
+     .contentFirstBlock{
+      display: flex;
+      flex-direction: column;
+      .mainTextStyle{
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: -2px;
+      }
+      .dateBlock{
+        display: flex;
+
+        .dayStyles{
+          font-size: 13px;
+          margin-right: 5px;
+          color: grey;
+        }
+        .dateStyles{
+          font-size: 13px;
+          color: grey;
+
+        }
+
+      }
+
+     }
+     .newsSummary{
+       margin-top: 10px;
+     }
+   }
+
+  }
+}
+}
